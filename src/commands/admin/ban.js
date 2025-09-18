@@ -30,7 +30,8 @@ const banCommand = async (interaction) => {
             .setTitle('Usuario Banido!')
             .setColor('Red')
             .setDescription(`O usuário ${target} foi banido do servidor!\nMotivo:${reason}`)
-            .setImage(target.avatar)
+            .setThumbnail(target.displayAvatarURL({ extension: "png", size: 1024 }))
+
         await interaction.guild.members.ban(target);
 
         channel.send({
