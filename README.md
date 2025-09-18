@@ -2,7 +2,7 @@
 
 ## Projeto
 
-O DOSBot é um BOT gratuito e opensource focado em admnistração de servidores.
+O DOSBot é um BOT gratuito e opensource focado em administração de servidores.
 
 ## Tecnologias
 
